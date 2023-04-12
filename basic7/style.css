@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.아빠 .효자 {
+    clear: both;
+}
+
+.아빠 {
+    width: 1000px;
+    background-color: palevioletred;
+    border: 1px solid blue;
+    /*  padding: /* 상 오른쪽 아래 왼쪽 시계방향 */
+    padding: 10px 20px 30px 40px;
+    /* padding: /* 상 좌우 하 */
+    padding: 10px 20px 30px;
+    /* padding: 상하 좌우 */
+    padding: 10px 20px;
+    /* padding: 상하좌우 */
+    padding: 20px;
+    /* 똑같은 명령이 반복될 때는 제일 아래의 명령이 적용됨 */
+
+    margin-left: auto;
+    margin-right: auto;
+    /* = margin: 0 auto; 상하 좌우 */
+    margin: 30px auto 0;
+}
+
+.철수.아빠 .자식 {
+    background-color: lightsteelblue;
+    width: 32%;
+    margin-right: 2%;
+    height: 100px;
+    float: left;
+}
+
+.철수.아빠 .자식3 {
+    margin-right: 0;
+}
+
+
+.칠수 .자식 {
+    background-color: darkgoldenrod;
+    width: 23.5%;
+    height: 100px;
+    float: left;
+    margin-right: 2%;
+}
+
+.칠수 .자식4 {
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.칠수 .자식4 object {
+    width: 100%;
+}
+
+.칠수 .자식2 {
+    overflow: hidden;
+}
+
+.칠수 .자식2 video {
+    width: 100%;
+}
+
+.칠수 .자식3 img {
+    width: 100%;
+}
+
+.칠수 .자식3 {
+    overflow: hidden;
+}

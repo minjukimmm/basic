@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+}
+
+.parent1{
+    background-image: url(https://img.freepik.com/premium-vector/square-grid-paper-seamless-pattern-millimeter-paper-sheet-background_434359-268.jpg?w=2000);
+    width: 500px;
+    height: 500px;
+}
+
+.parent1 .child {
+    width: 100px;
+    height: 100px;
+    background-color: darkslateblue;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.parent1 .child2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.parent2 {
+    position: relative; /* 요소 자기 자신을 기준으로 배치 */
+    margin-top: 30px;
+    width: 90%;
+    height: 600px;
+    border: 1px solid gray;
+}
+
+.parent2 .child {
+    position: absolute; /* 부모 요소를 기준으로 배치 */
+    left: 50%; top: 50%; /* 정중앙에 놓는 법 */
+    transform: translate(-50%,-50%); /* %는 자신이 기준 */
+    width: 600px; height: 400px;
+    background-color: lightslategray;
+    overflow: hidden;
+}
+
+.parent2 .child iframe{
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    width: 120%;
+    height: 100%;
+}
+
+.parent3 {}
+
+.parent3 .child {}
+
+.parent4 {}
+
+.parent4 .child {}
